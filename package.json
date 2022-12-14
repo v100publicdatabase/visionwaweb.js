@@ -2,7 +2,9 @@
   "name": "whatsapp-web.js",
   "version": "1.18.4",
   "description": "Library for interacting with the WhatsApp Web API ",
-  "main": "./index.js",
+  "scripts": {
+            "start": "node index.js"
+          },
   "typings": "./index.d.ts",
   "scripts": {
     "test": "mocha tests --recursive --timeout 5000",
